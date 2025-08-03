@@ -61,45 +61,13 @@
 
 // export default SummaryCards;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import { Card, CardContent, Typography, Box } from "@mui/material";
-import { WorkOutline, People, BusinessCenter, Group } from "@mui/icons-material";
+import {
+  WorkOutline,
+  People,
+  BusinessCenter,
+  Group,
+} from "@mui/icons-material";
 
 function SummaryCards() {
   const cards = [
@@ -138,8 +106,6 @@ function SummaryCards() {
       {cards.map((item) => (
         <Card key={item.title} className="shadow-md rounded-xl">
           <CardContent className="flex flex-col items-center space-y-4">
-            
-
             {/* Title */}
             <Typography variant="h6" sx={{ fontWeight: 500 }}>
               {item.title}
@@ -161,7 +127,7 @@ function SummaryCards() {
                 fontWeight: 500,
               }}
             >
-            {item.icon}  {item.btnValue} 
+              {item.icon} {item.btnValue}
             </Box>
           </CardContent>
         </Card>

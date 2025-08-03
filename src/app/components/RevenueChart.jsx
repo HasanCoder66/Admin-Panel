@@ -8,25 +8,27 @@ import {
 } from "recharts";
 
 const data = [
-  { month: "Jan", invoices: 10, projects: 50 },
-  { month: "Feb", invoices: 20, projects: 150 },
-  { month: "Mar", invoices: 40, projects: 20 },
-  { month: "Apr", invoices: 80, projects: 60 },
-  { month: "May", invoices: 20, projects: 100 },
-  { month: "Jun", invoices: 100, projects: 150 },
-  { month: "July", invoices: 150, projects: 200 },
-  { month: "Aug", invoices: 80, projects: 100 },
-  { month: "Sep", invoices: 50, projects: 80 },
-  { month: "Oct ", invoices: 180, projects: 50 },
-  { month: "Nov ", invoices: 40, projects: 30 },
-  { month: "Dec ", invoices: 100, projects: 150 },
+  { month: "Jan", invoices: 200, projects: 100 },
+  { month: "Feb", invoices: 150, projects: 50 },
+  { month: "Mar", invoices: 100, projects: 120 },
+  { month: "Apr", invoices: 150, projects: 60 },
+  { month: "May", invoices: 200, projects: 200 },
+  { month: "Jun", invoices: 300, projects: 350 },
+  { month: "July", invoices: 350, projects: 100 },
+  { month: "Aug", invoices: 400, projects: 300 },
+  { month: "Sep", invoices: 200, projects: 500 },
+  { month: "Oct ", invoices: 180, projects: 250 },
+  { month: "Nov ", invoices: 400, projects: 150 },
+  { month: "Dec ", invoices: 300, projects: 300 },
 ];
 
 function RevenueChart() {
   return (
-    <div className="bg-white p-4 rounded-lg shadow-md h-80">
-      <h3 className="text-gray-700 font-semibold mb-4">Invoices & Projects</h3>
-      <ResponsiveContainer width="100%" height="80%" >
+    <div className="bg-white p-4 rounded-lg shadow-md h-100">
+      <h3 className="text-gray-700 font-semibold mb-4 text-lg">
+        Invoices & Projects
+      </h3>
+      <ResponsiveContainer width="100%" height="80%">
         <LineChart data={data}>
           <XAxis dataKey="month" />
           <YAxis />

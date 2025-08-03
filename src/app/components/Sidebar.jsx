@@ -18,52 +18,52 @@ import SettingsIcon from "@mui/icons-material/Settings";
 const Sidebar = () => {
   return (
     <div className="w-64 min-h-screen bg-[#111827] text-white p-4 hidden md:block">
-      <div className="text-2xl font-bold mb-10">LOGO</div>
+      <div className="text-2xl font-bold mb-10">ADMIN PANEL</div>
       <ul className="space-y-4">
-        <li className="flex items-center gap-2 hover:text-gray-400">
+        <li className="flex items-center gap-2 hover:text-white hover:bg-[#8884d8] transition-all duration-300 p-2 cursor-pointer hover:rounded-2xl">
           <DashboardIcon fontSize="small" /> Dashboard
         </li>
-        <li className="flex items-center gap-2 hover:text-gray-400">
+        <li className="flex items-center gap-2 hover:text-white hover:bg-[#8884d8] transition-all duration-300 p-2 cursor-pointer hover:rounded-2xl">
           <WorkspacePremiumIcon fontSize="small" /> Workspaces
         </li>
-        <li className="flex items-center gap-2 hover:text-gray-400">
+        <li className="flex items-center gap-2 hover:text-white hover:bg-[#8884d8] transition-all duration-300 p-2 cursor-pointer hover:rounded-2xl">
           <PeopleIcon fontSize="small" /> Users
         </li>
-        <li className="flex items-center gap-2 hover:text-gray-400">
+        <li className="flex items-center gap-2 hover:text-white hover:bg-[#8884d8] transition-all duration-300 p-2 cursor-pointer hover:rounded-2xl">
           <InboxIcon fontSize="small" /> Inbox
         </li>
 
-        <li className="flex items-center gap-2 hover:text-gray-400">
+        <li className="flex items-center gap-2 hover:text-white hover:bg-[#8884d8] transition-all duration-300 p-2 cursor-pointer hover:rounded-2xl">
           <DescriptionIcon fontSize="small" /> Projects
         </li>
-        <li className="flex items-center gap-2 hover:text-gray-400">
+        <li className="flex items-center gap-2 hover:text-white hover:bg-[#8884d8] transition-all duration-300 p-2 cursor-pointer hover:rounded-2xl">
           <TaskIcon fontSize="small" /> Tasks
         </li>
-        <li className="flex items-center gap-2 hover:text-gray-400">
+        <li className="flex items-center gap-2 hover:text-white hover:bg-[#8884d8] transition-all duration-300 p-2 cursor-pointer hover:rounded-2xl">
           <PersonIcon fontSize="small" /> Client
         </li>
-        <li className="flex items-center gap-2 hover:text-gray-400">
+        <li className="flex items-center gap-2 hover:text-white hover:bg-[#8884d8] transition-all duration-300 p-2 cursor-pointer hover:rounded-2xl">
           <ReceiptIcon fontSize="small" /> Invoices
         </li>
-        <li className="flex items-center gap-2 hover:text-gray-400">
+        <li className="flex items-center gap-2 hover:text-white hover:bg-[#8884d8] transition-all duration-300 p-2 cursor-pointer hover:rounded-2xl">
           <FormatListBulletedIcon fontSize="small" /> Form Builder
         </li>
-        <li className="flex items-center gap-2 hover:text-gray-400">
+        <li className="flex items-center gap-2 hover:text-white hover:bg-[#8884d8] transition-all duration-300 p-2 cursor-pointer hover:rounded-2xl">
           <WorkIcon fontSize="small" /> Gigs
         </li>
-        <li className="flex items-center gap-2 hover:text-gray-400">
+        <li className="flex items-center gap-2 hover:text-white hover:bg-[#8884d8] transition-all duration-300 p-2 cursor-pointer hover:rounded-2xl">
           <ConfirmationNumberIcon fontSize="small" /> Ticketing
         </li>
 
-        <li className="flex items-center gap-2 hover:text-gray-400">
+        <li className="flex items-center gap-2 hover:text-white hover:bg-[#8884d8] transition-all duration-300 p-2 cursor-pointer hover:rounded-2xl">
           <EventIcon fontSize="small" /> Calender
         </li>
 
-        <li className="flex items-center gap-2 hover:text-gray-400">
+        <li className="flex items-center gap-2 hover:text-white hover:bg-[#8884d8] transition-all duration-300 p-2 cursor-pointer hover:rounded-2xl">
           <AnnouncementIcon fontSize="small" /> Notice Board
         </li>
 
-        <li className="flex items-center gap-2 hover:text-gray-400">
+        <li className="flex items-center gap-2 hover:text-white hover:bg-[#8884d8] transition-all duration-300 p-2 cursor-pointer hover:rounded-2xl">
           <SettingsIcon fontSize="small" /> Settings
         </li>
       </ul>
