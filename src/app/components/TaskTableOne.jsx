@@ -1,5 +1,3 @@
-"use client";
-
 import AddIcon from "@mui/icons-material/Add";
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
 

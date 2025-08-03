@@ -1,5 +1,4 @@
 import { Avatar, Button } from "@mui/material";
-import { MissingStaticPage } from "next/dist/shared/lib/utils";
 
 const messages = [
   {

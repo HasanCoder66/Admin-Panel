@@ -1,5 +1,3 @@
-"use client";
-
 import DashboardIcon from "@mui/icons-material/Dashboard";
 import WorkspacePremiumIcon from "@mui/icons-material/WorkspacePremium";
 import PeopleIcon from "@mui/icons-material/People";

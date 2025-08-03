@@ -1,10 +1,7 @@
-"use client";
-
 import Messages from "../components/Message";
 import RevenueChart from "../components/RevenueChart";
 import SummaryCards from "../components/SummaryCards";
 import TaskTableToDo from "../components/TaskTableOne";
-import TaskTable from "../components/TaskTableOne";
 import TaskTableInProgress from "../components/TaskTableTwo";
 import TopTabs from "../components/TopTabs";
 
